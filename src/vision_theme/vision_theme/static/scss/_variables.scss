@@ -1,4 +1,37 @@
 $bootstrap-sass-asset-helper: false !default;
+
+
+// VoteIT Variables
+$brand-primary:     #7930AE;
+$navbar-voteit-bg:  $brand-primary;
+$navbar-voteit-color:                      #fff;
+$navbar-voteit-border: darken($navbar-voteit-bg, 10%) !default;
+
+
+// VoteIT navbar links
+$navbar-voteit-link-color:                 $navbar-voteit-color;
+$navbar-voteit-link-hover-color:           #fff !default;
+$navbar-voteit-link-hover-bg:              transparent !default;
+$navbar-voteit-link-active-color:          $navbar-voteit-link-hover-color !default;
+$navbar-voteit-link-active-bg:             lighten($navbar-voteit-bg, 5%) !default;
+$navbar-voteit-link-disabled-color:        #eee !default;
+$navbar-voteit-link-disabled-bg:           transparent !default;
+
+// VoteIT navbar brand label
+$navbar-voteit-brand-color:                $navbar-voteit-link-color !default;
+$navbar-voteit-brand-hover-color:          #fff !default;
+$navbar-voteit-brand-hover-bg:             transparent !default;
+
+// VoteIT navbar toggle
+$navbar-voteit-toggle-hover-bg:            $navbar-voteit-link-active-bg !default;
+$navbar-voteit-toggle-icon-bar-bg:         #fff !default;
+$navbar-voteit-toggle-border-color:        $navbar-voteit-link-active-bg !default;
+
+
+
+
+
+
 //
 // Variables
 // --------------------------------------------------
@@ -14,7 +47,7 @@ $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+//$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
