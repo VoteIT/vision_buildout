@@ -11,11 +11,14 @@ eggs
 include/
 lib/
 local/
-src/
+src/*
+!src/vision_theme
 build/
 dist/
 parts/
 .tox/
+.Python
+.idea
 nosetests.xml
 env*/
 tmp/

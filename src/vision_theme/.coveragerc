@@ -1,0 +1,3 @@
+[run]
+source = vision_theme
+omit = vision_theme/test*
